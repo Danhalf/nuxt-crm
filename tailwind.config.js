@@ -13,15 +13,22 @@ module.exports = {
       },
     },
     extend: {
+      transitionDuration: {
+        DEFAULT: '333ms'
+      },
+      transitionTimingFunction: {
+        DEFAULT: 'ease-in-out'
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
+        sidebar: "var(--sidebar)",
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          foreground: "var(--primary-foreground)",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
