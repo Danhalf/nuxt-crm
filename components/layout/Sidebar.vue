@@ -10,7 +10,6 @@
       class="absolute text-2xl rounded-full top-2 right-3 transition-colors hover:text-secondary"
     >
       <Icon name="line-md:logout" />
-      for commmit
     </UIButton>
   </aside>
 </template>
